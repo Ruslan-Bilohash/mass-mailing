@@ -65,9 +65,6 @@ English • Русский • Українська • Norsk • Lietuvių • 
 4. Загрузите на сервер (требуется PHP 7.4+)  
 5. Откройте `index.php`  
 
-#### Скриншоты
-![Главная страница](https://edukvam.com/git/mass-mailing/screen1.jpg)  
-![Главная страница](https://edukvam.com/git/mass-mailing/screen2.jpg)  
 
 #### Лицензия
 MIT License  
@@ -100,9 +97,6 @@ English • Русский • Українська • Norsk • Lietuvių • 
 4. Завантажте на сервер (потрібен PHP 7.4+)  
 5. Відкрийте `index.php`  
 
-#### Скріншоти
-![Головна сторінка](https://edukvam.com/git/mass-mailing/screen1.jpg)  
-![Головна сторінка](https://edukvam.com/git/mass-mailing/screen2.jpg)  
 
 #### Ліцензія
 MIT License  
@@ -135,9 +129,6 @@ English • Русский • Українська • Norsk • Lietuvių • 
 4. Last opp til server (PHP 7.4+ kreves)  
 5. Åpne `index.php`  
 
-#### Skjermbilder
-![Hovedside](https://edukvam.com/git/mass-mailing/screen1.jpg)  
-![Hovedside](https://edukvam.com/git/mass-mailing/screen2.jpg)  
 
 #### Lisens
 MIT License  
@@ -170,9 +161,6 @@ English • Русский • Українська • Norsk • Lietuvių • 
 4. Įkelkite į serverį (reikalingas PHP 7.4+)  
 5. Atidarykite `index.php`  
 
-#### Ekrano nuotraukos
-![Pagrindinis puslapis](https://edukvam.com/git/mass-mailing/screen1.jpg)  
-![Pagrindinis puslapis](https://edukvam.com/git/mass-mailing/screen2.jpg)  
 
 #### Licencija
 MIT License  
@@ -205,9 +193,6 @@ English • Русский • Українська • Norsk • Lietuvių • 
 4. Prześlij na serwer (wymagany PHP 7.4+)  
 5. Otwórz `index.php`  
 
-#### Zrzuty ekranu
-![Strona główna](https://edukvam.com/git/mass-mailing/screen1.jpg)  
-![Strona główna](https://edukvam.com/git/mass-mailing/screen2.jpg)  
 
 #### Licencja
 MIT License  
@@ -240,9 +225,6 @@ English • Русский • Українська • Norsk • Lietuvių • 
 4. ატვირთეთ სერვერზე (საჭიროა PHP 7.4+)  
 5. გახსენით `index.php`  
 
-#### სკრინშოტები
-![მთავარი გვერდი](https://edukvam.com/git/mass-mailing/screen1.jpg)  
-![მთავარი გვერდი](https://edukvam.com/git/mass-mailing/screen2.jpg)  
 
 #### ლიცენზია
 MIT License  
@@ -274,10 +256,7 @@ English • Русский • Українська • Norsk • Lietuvių • 
 3. Bearbeiten Sie `settings.php` (oder verwenden Sie `settings_page.php` im Browser)  
 4. Hochladen auf den Server (PHP 7.4+ erforderlich)  
 5. Öffnen Sie `index.php`  
-
-#### Screenshots
-![Hauptseite](https://edukvam.com/git/mass-mailing/screen1.jpg)  
-![Hauptseite](https://edukvam.com/git/mass-mailing/screen2.jpg)  
+ 
 
 #### Lizenz
 MIT License  
