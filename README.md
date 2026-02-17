@@ -1,4 +1,9 @@
 # Mass Mailing 1.0
+
+#### Screenshots
+![Main Page](https://edukvam.com/git/mass-mailing/screen1.jpg)  
+![Main Page](https://edukvam.com/git/mass-mailing/screen2.jpg)  
+
 **Demo:** [https://edukvam.com/git/mass-mailing/index.php](https://edukvam.com/git/mass-mailing/index.php)  
 **Settings Page:** [https://edukvam.com/git/mass-mailing/settings_page.php](https://edukvam.com/git/mass-mailing/settings_page.php)  
 ---
@@ -30,9 +35,6 @@ English • Русский • Українська • Norsk • Lietuvių • 
 4. Upload to server (PHP 7.4+ required)  
 5. Open `index.php`  
 
-#### Screenshots
-![Main Page](https://edukvam.com/git/mass-mailing/screen1.jpg)  
-![Main Page](https://edukvam.com/git/mass-mailing/screen2.jpg)  
 
 #### License
 MIT License  
