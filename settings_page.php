@@ -20,8 +20,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'from_email' => $_POST['from_email'] ?? $settings['smtp']['from_email'],
             'from_name' => $_POST['from_name'] ?? $settings['smtp']['from_name'],
         ],
+        'mail_method' => $_POST['mail_method'] ?? $settings['mail_method'],
     ];
 
+    // Save to file
     file_put_contents('settings_data.php', '<?php return ' . var_export($new_settings, true) . '; ?>');
 
     $status = 'Settings saved successfully!';
@@ -39,6 +41,13 @@ require 'header.php';
 <?php endif; ?>
 
 <form method="post">
+    <div class="mb-3">
+        <label class="form-label">Mail Method:</label>
+        <select name="mail_method" class="form-control">
+            <option value="smtp" <?php if ($settings['mail_method'] === 'smtp') echo 'selected'; ?>>SMTP (PHPMailer)</option>
+            <option value="phpmail" <?php if ($settings['mail_method'] === 'phpmail') echo 'selected'; ?>>PHP mail()</option>
+        </select>
+    </div>
     <div class="mb-3">
         <label class="form-label">SMTP Host:</label>
         <input type="text" name="host" class="form-control" value="<?php echo htmlspecialchars($settings['smtp']['host']); ?>" required>
