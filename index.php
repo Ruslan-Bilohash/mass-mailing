@@ -11,6 +11,7 @@ $lang_code = isset($_GET['lang']) && isset($languages[$_GET['lang']]) ? $_GET['l
 $l = $languages[$lang_code];
 require 'functions.php';
 
+// Обработка отправки
 $status = '';
 $success_count = 0;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -72,12 +73,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }));
 
         foreach ($recipients as $to) {
-            if (sendEmail($to, $subject, $message, $attachments, $settings)) {
+            if (sendEmail($to, $subject, $message, $settings, $attachments)) {
                 $success_count++;
             }
         }
 
-        $status = sprintf($l['sent'], $success_count);
+        if ($success_count == 0 && count($recipients) > 0) {
+            $status = $l['send_failed'] ?? 'Failed to send any emails. Check configuration and server logs.';
+            error_log('Failed to send emails to: ' . implode(', ', $recipients));
+        } else {
+            $status = sprintf($l['sent'], $success_count);
+        }
     }
 }
 
