@@ -14,6 +14,7 @@ $default_settings = [
         'from_email' => 'rbilohash@gmail.com',
         'from_name' => 'Admin',
     ],
+    'mail_method' => 'smtp', // 'smtp' or 'phpmail'
 ];
 
 // Load existing settings if file exists, otherwise use default
